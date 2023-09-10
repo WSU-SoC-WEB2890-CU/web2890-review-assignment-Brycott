@@ -1,1 +1,10 @@
-TODO: List here all the changes you made to given template to adapt it to your needs
+Removed the pulsing play button in the intro section becasue it was a little distracting.
+Changed the services section to hobbies to better suit my website needs.
+In the testimonials section I have removed the random people images, name, the star ratings becasue I wanted to have a description on what activities I like to do.
+I have also removed one of the sections in the testimonials to only have three activities to better suite my needs.
+Removed 6 of the portfolio items in the portfolio section which is now called my past projects to make it more inline to my past projects.
+Removed the next step text in the get started section which is now called contact me section becasue I dont think it is needed for my needs.
+Removed the hours, email address, and the location bar items in the footer because I am not an officall buisness.
+Removed several items in the footer area to only show the infrmation that I want to show.
+Made the navbar links go to certain sections depending on what is clicked and goes to the corresponding section on the page to make it more intuitive.
+Removed the mockup button in the portfolio section which is now called my past projects section because I did not include mockups.

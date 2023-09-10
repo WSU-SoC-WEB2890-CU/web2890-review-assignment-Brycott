@@ -1,0 +1,56 @@
+@use "../custom" as *;
+
+.hobbies {
+  position: relative;
+  padding: 1rem 0;
+
+  .whitewater {
+    .hobbies__pic {
+      max-width: 70%;
+      margin: 0 0 4rem 3rem;
+    }
+  }
+
+  &__content {
+    padding: 1rem;
+    margin-top: 0;
+
+    p {
+      font-size: 0.8rem;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 1rem;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 5rem;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      color: $primary;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &__pic {
+    max-width: 100%;
+  }
+  @include media-breakpoint-down(md) {
+    .rc-car {
+      display: flex;
+
+      .child1 {
+        order: 2;
+      }
+
+      .child2 {
+        order: 1;
+      }
+    }
+  }
+}

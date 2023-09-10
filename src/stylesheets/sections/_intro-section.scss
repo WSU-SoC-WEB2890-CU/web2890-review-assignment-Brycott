@@ -1,11 +1,22 @@
-@use '../custom'as *;
-@use '../components/mixins'as *;
+@use "../custom" as *;
+@use "../components/mixins" as *;
 
 .intro-section {
   @include gradient;
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
+
+  img {
+    border-radius: 50%;
+  }
+
+  @include media-breakpoint-down(md) {
+    img {
+      display: flex;
+      margin: 3rem 0 0 20%;
+    }
+  }
 }
 
 .intros {
@@ -18,10 +29,8 @@
         line-height: 6rem;
 
         i {
-
           font-size: 6rem;
-          color: $orange;
-
+          color: $gold;
         }
       }
     }
@@ -35,7 +44,7 @@
   width: 6rem;
   height: 6rem;
   border: 0.55rem solid $white;
-  border-radius: 50%;
+  //border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;
 
   &--border-1 {

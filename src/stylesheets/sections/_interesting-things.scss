@@ -1,0 +1,22 @@
+@use "../custom" as *;
+
+.interesting-things {
+  text-align: center;
+  margin: 3rem 3rem 2rem 4rem;
+  .items {
+    display: flex;
+    justify-content: space-between;
+    .thing {
+      margin: 2rem 3rem 0rem 2rem;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .items {
+      justify-content: center;
+      margin: 0 4rem 0 4rem;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
